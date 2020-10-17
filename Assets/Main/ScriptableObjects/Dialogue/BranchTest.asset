@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af88a780d58540bb9c2617c1c297208, type: 3}
+  m_Name: BranchTest
+  m_EditorClassIdentifier: 
+  dialogueID: Start
+  DialogueLines:
+  - Hello!
+  - How Are you today?
+  ResponseOption:
+  - text: I'm doing good
+    nextBranch: {fileID: 11400000, guid: 8e03ff79c1bfc4ecd89291525ab59d8a, type: 2}
+  - text: I'm just ok
+    nextBranch: {fileID: 11400000, guid: 45526050171fc423fac82e61d3fffe59, type: 2}
+  - text: I'm not doing well today
+    nextBranch: {fileID: 11400000, guid: 766bfbc9c06a44c98a5d8be70b456158, type: 2}
